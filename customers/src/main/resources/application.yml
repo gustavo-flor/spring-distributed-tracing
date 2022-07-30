@@ -1,0 +1,13 @@
+server:
+  port: 8080
+springdoc:
+  swagger-ui:
+    path: /
+spring:
+  main:
+    banner-mode: off
+  application:
+    name: customers-application
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/customers
